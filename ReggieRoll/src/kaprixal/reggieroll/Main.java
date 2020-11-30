@@ -12,7 +12,7 @@ public class Main {
 	public static String prefix = "$r";
 	// Main method
 	public static void main(String[] args) throws LoginException {
-		jda = JDABuilder.createDefault("Nzc0NzA1MjA5MjgwMjk5MDE4.X6bqcw.JwjS03CqiWRPtidO3w_Q_xEnfac").build();
+		jda = JDABuilder.createDefault("token").build();
 		jda.getPresence().setStatus(OnlineStatus.IDLE);
 		jda.getPresence().setActivity(Activity.playing("with your rolls"));
 		
